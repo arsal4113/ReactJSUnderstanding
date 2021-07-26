@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "^2.1.1"
+    "react-scripts": "^2.1.8"
   },
   "homepage": "https://taniarascia.github.io/react-tutorial",
   "scripts": {
@@ -26,4 +26,3 @@
     "not op_mini all"
   ]
 }
-
