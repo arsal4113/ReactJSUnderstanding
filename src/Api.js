@@ -52,7 +52,7 @@ export default App;
 		  
 		  Axios.get(
 		  
-		  "https://api.unsplash.com/photos/?client_id=F5c9bdjhihYqWahK0h3wixD_ZE9ujwIjw9nTAfdS_OM"
+		  `${process.env.REACT_APP_UNSPLASH_URL}?client_id=${process.env.REACT_APP_UNSPLASH_KEY}`
 		  
 		  ).then( (res)=> {
 			  
@@ -70,4 +70,5 @@ export default App;
 		  ...images.slice(index + 1, images.length),
 		  ]);
 	  }
+	  
   }
